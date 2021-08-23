@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-right: 0;
+    background-color: black;
+
+}
+.navbar{   
+    background-color: black;
+    width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    display: inline-block;
+    width: auto;
+    margin: 20px;
+    padding: 5px;
+}
+.active:hover{
+    background-color: rgb(63, 60, 60);
+    border-radius: 50px;
+}
+.title{
+    display: inline-block;
+    width:97%;
+    height: 270px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    opacity: 1;
+    
+            color: white;
+            font-weight: bold;
+         
+           
+            z-index: 1;
+           
+            padding: 20px;
+            text-align: center;
+            background-image: url('../static/back2.jpg.jpg');
+            
+            
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:contain;
+            color: white;
+}
+.title h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+}
+.title p{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    background-color:rgb(17, 17, 17) ;
+}
+.box{
+    
+    margin: 10px;
+    padding: 8px;
+    margin-left: 45PX;
+    margin-right: 45PX;
+border-radius: 10px;
+    font-size: 16px;
+    background-color:rgb(49, 48, 48);
+    color: white;
+}
+button{
+    border: none;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    border-left: 2px solid white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(78, 76, 76);
+    transform: scale(1.2);
+
+}
+input{
+    border-radius: 10px;
+}
+.dropbtn {
+    position: absolute;
+    top: 10px;
+    left: -420px;
+display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:rgb(78, 76, 76) ;
+    border-radius: 50px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -300px;
+border-radius: 10px;
+    background-color: black;
+    min-width: 200px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: rgb(78, 76, 76);}
+  
+  .show {display: block;}
+  .forward{
+      box-sizing: border-box;
+      display: inline-block;
+      width: 100%;
+      border: 3px solid black;
+      color: white;
+      background-color: black;
+
+      padding: 10px;
+  }
+  .num{
+     float: left;
+    border: 2px solid white;
+      color: white;   
+      font-size: 16px;
+      margin: 10px;
+      padding: 5px;
+      margin-left: 50px;
+
+  }
+  .num a{
+      text-decoration: none;
+      color: white;
+  }
+  .container1{
+      float: left;
+      margin: 30px;
+  }
+  @media screen and (max-width: 556px) and (min-width:366px){
+   body{
+       max-width: 100%;
+   }
+   input{
+width: 180px;
+}
+.active{
+    font-size: 12px;
+    margin: 5px;
+    padding: 4px;
+}
+.dropbtn {
+    position: absolute;
+    top: -10px;
+    left: -330px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+#singer{
+  margin-left: 33px;
+}
+.title{
+   
+    width:90%;
+    height: 90px;
+  
+}
+.title h1{
+    font-size: 20px;
+}
+.title p{
+    font-size: 8px;
+}
+.box{
+    font-size: 8px;
+    margin: 5px;
+    width: 80%;
+}
+button{
+   font-size: 10px;
+margin: 0px;
+margin-top: 0;
+padding: 2px;
+}
+.forward{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+
+    padding: 10px;
+    font-size: 12px;
+}
+.num{
+    font-size: 12px;
+    float: left;
+    border: 2px solid white;
+      color: white;   
+    
+      margin: 5px;
+      padding: 3px;
+      margin-left: 20px;
+}
+ }
+ @media screen and (max-width: 820px) and (min-width:556px) {
+    body{
+        max-width: 100%;
+    }
+    input{
+ width: 180px;
+ }
+ .active{
+     font-size: 15px;
+     margin: 8px;
+     padding: 6px;
+ }
+ .dropbtn {
+    position: absolute;
+    top: -10px;
+    left: -330px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+ #singer{
+   margin-left: 33px;
+ }
+ .title{
+    
+     width:95%;
+     height: 120px;
+   
+ }
+ .title h1{
+     font-size: 30px;
+ }
+ .title p{
+     font-size: 10px;
+ }
+ .box{
+     font-size: 15px;
+     margin: 5px;
+     width: 90%;
+ }
+ button{
+    font-size: 15px;
+ margin: 0;
+ margin-top: 0;
+ padding: 6px;
+ }
+ .num{
+    font-size: 14px;
+    float: left;
+    border: 2px solid white;
+      color: white;   
+    
+      margin: 7px;
+      padding: 5px;
+      margin-left: 25px;
+}
+  }
+ @media screen and (max-width: 373px) {
+    body{
+        max-width: 100%;
+    }
+    input{
+ width: 200px;
+ }
+ .active{
+     font-size: 15px;
+     margin: 8px;
+     padding: 6px;
+ }
+ .dropbtn {
+    position: absolute;
+    top: -6px;
+    left: -365px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+ #singer{
+   margin-left: 150px;
+   margin-top: 0px;
+ }
+ .title{
+    
+     width:89%;
+     height: 120px;
+   
+ }
+ .title h1{
+     font-size: 30px;
+ }
+ .title p{
+     font-size: 10px;
+ }
+
+ .box{
+     font-size: 8px;
+     margin: 5px;
+     width: 90%;
+ }
+
+ button{
+    font-size: 11px;
+ margin: 2px;
+ margin-top: 0;
+ padding: 2px;
+ }
+
+ .num{
+    font-size: 14px;
+    float: left;
+    border: 2px solid white;
+     color: white;   
+      margin: 5px;
+      padding: 3px;
+      margin-left: 20px;
+}
+  }
